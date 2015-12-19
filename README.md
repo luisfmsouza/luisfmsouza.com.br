@@ -4,7 +4,7 @@
 
 #Deploy :rocket:
 
-Heroku Pipeline is taking care of all deploy steps. 
+Heroku Pipeline is taking care of every deploy step. 
 
 First, every Pull Request should pass by an review. If everything is ok, deploy to staging is executed and the changes must be merged to `master`.
 
