@@ -1,0 +1,22 @@
+{
+  "name": "luisfmsouza.com.br",
+  "version": "1.0.0",
+  "description": "My personal homepage",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luisfmsouza/luisfmsouza.com.br.git"
+  },
+  "keywords": [
+    "homepage"
+  ],
+  "author": "Luís Felipe Souza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luisfmsouza/luisfmsouza.com.br/issues"
+  },
+  "homepage": "https://github.com/luisfmsouza/luisfmsouza.com.br#readme"
+}
