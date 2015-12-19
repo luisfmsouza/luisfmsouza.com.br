@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/luisfmsouza/luisfmsouza.com.br/issues"
   },
-  "homepage": "https://github.com/luisfmsouza/luisfmsouza.com.br#readme"
+  "homepage": "https://github.com/luisfmsouza/luisfmsouza.com.br#readme",
+  "dependencies": {
+    "mime": "~1.3.4"
+  }
 }
