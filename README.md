@@ -14,6 +14,6 @@ If the staging review is ok, Heroku Pipeline also take care of a deploy to produ
 
 Easy to ship and go online!
 
+#Access :zap:
 
-
-Temporary link: http://luisfmsouza.github.io/luisfmsouza.com.br/ or https://luisfmsouza.herokuapp.com/
+Link: http://www.luisfmsouza.com.br
