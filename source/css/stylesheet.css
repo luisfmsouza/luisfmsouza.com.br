@@ -1,3 +1,6 @@
+$link-primary: #0287D0;
+$link-primary-hover: #004790;
+
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
@@ -48,7 +51,7 @@ table {
 
 /* LAYOUT STYLES */
 body {
-  font-family: 'Helvetica Neue', Helvetica, Arial, serif;
+  font-family: "Alice";
   font-size: 1em;
   line-height: 1.5;
   color: #6d6d6d;
@@ -57,11 +60,11 @@ body {
 }
 
 a {
-  color: #0287D0;
+  color: $link-primary;
   font-weight: bold;
 }
 a:hover {
-  color: #004790;
+  color: $link-primary-hover;
 }
 
 header {
