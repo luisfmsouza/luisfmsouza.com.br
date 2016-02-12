@@ -6,8 +6,17 @@ Link: http://www.luisfmsouza.com.br
 
 #Plans :thought_balloon:
 - Use [RSCSS](http://willianjusten.com.br/falando-sobre-rscss/) methodology
-- Use PostCSS (also as a preprocessor)
-- NPM scripts (maybe!)
+- Use PostCSS (also as a preprocessor) :ballot_box_with_check:
+- NPM scripts (maybe!) :ballot_box_with_check:
+
+#Using
+- [PostCSS](https://github.com/postcss/postcss)
+-- [PostCSS-CLI](https://github.com/postcss/postcss-cli): to make NPM scripts easyer
+-- [Autoprefixer](https://github.com/postcss/autoprefixer)
+-- [CSS Nano](https://github.com/ben-eb/cssnano)
+-- [Font Magician](https://github.com/jonathantneal/postcss-font-magician)
+-- [LostGrid](https://github.com/peterramsing/lost)
+-- [PreCSS](https://github.com/jonathantneal/precss)
 
 
 #Deploy :rocket:

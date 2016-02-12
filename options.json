@@ -1,0 +1,9 @@
+{
+    "use": ["postcss-font-magician", "precss", "autoprefixer", "cssnano", "lost"],
+    "input": "source/css/stylesheet.css",
+    "output": "dist/css/stylesheet.css",
+    "local-plugins": true,
+    "autoprefixer": {
+        "browsers": "> 5%"
+    }
+}
