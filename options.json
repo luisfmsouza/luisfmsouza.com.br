@@ -1,5 +1,5 @@
 {
-    "use": ["postcss-font-magician", "precss", "autoprefixer", "cssnano", "lost"],
+    "use": ["postcss-font-magician", "postcss-cssnext", "autoprefixer", "cssnano", "lost"],
     "input": "source/css/stylesheet.css",
     "output": "dist/css/stylesheet.css",
     "local-plugins": true,

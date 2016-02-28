@@ -16,7 +16,7 @@ Link: http://www.luisfmsouza.com.br
 -- [CSS Nano](https://github.com/ben-eb/cssnano)
 -- [Font Magician](https://github.com/jonathantneal/postcss-font-magician)
 -- [LostGrid](https://github.com/peterramsing/lost)
--- [PreCSS](https://github.com/jonathantneal/precss)
+-- [cssnext](https://github.com/MoOx/postcss-cssnext)
 
 
 #Deploy :rocket:
