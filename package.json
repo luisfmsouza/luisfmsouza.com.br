@@ -24,7 +24,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "test:e2e": "percy exec -- cypress run",
+    "test:e2e:local": "PERCY_TOKEN=156ab50cfad09b7483f24f65f03fa2edc1a09d3b7d8331d8e3c093616475bc2d PERCY_BRANCH=local yarn test:e2e"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -42,6 +44,7 @@
     ]
   },
   "devDependencies": {
+    "@percy/cypress": "^1.0.9",
     "cypress": "^3.3.1"
   }
 }
