@@ -2,13 +2,13 @@ import React from "react";
 
 export default () => (
   <svg
-    class="icon linkedin"
+    className="icon linkedin"
     x="0px"
     y="0px"
     width="100"
     height="100"
     viewBox="0 0 512 512"
-    enable-background="new 0 0 512 512"
+    enableBackground="new 0 0 512 512"
   >
     <path
       d="M274.842,230.914l0.5-0.729v0.729 M434.092,428.579h-77.329V304.895c0-31.079-11.21-52.282-39.184-52.282

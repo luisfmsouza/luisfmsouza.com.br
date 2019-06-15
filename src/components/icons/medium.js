@@ -2,7 +2,7 @@ import React from "react";
 
 export default () => (
   <svg
-    class="icon medium"
+    className="icon medium"
     x="0"
     y="0"
     width="100"
@@ -15,7 +15,7 @@ export default () => (
       </clipPath>
     </defs>
     <g id="Layer_1">
-      <g clip-path="url(#Clip_1)">
+      <g clipPath="url(#Clip_1)">
         <path
           d="M196.476,1.081 C195,0.343 193.793,1.089 193.793,2.739 L193.793,205.655 L282.645,250.081 C287.072,252.295 290.694,250.056 290.694,245.106 L290.694,49.778 C290.694,48.805 290.144,47.915 289.274,47.48 L196.476,1.081"
           fill="#30F89E"

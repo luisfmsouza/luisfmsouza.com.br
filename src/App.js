@@ -7,10 +7,10 @@ import GithubIcon from "./components/icons/github";
 
 function App() {
   return (
-    <div class="container">
+    <div className="container">
       <header>
-        <h1 class="title">Luís Felipe Souza</h1>
-        <h2 class="headline">
+        <h1 className="title">Luís Felipe Souza</h1>
+        <h2 className="headline">
           Front-end Developer,{" "}
           <a href="https://travel2beer.com/" target="_blank">
             traveler
@@ -23,11 +23,11 @@ function App() {
         </h2>
       </header>
 
-      <section class="content">
-        <ul class="social-list">
+      <section className="content">
+        <ul className="social-list">
           <li>
             <a
-              class="social-link"
+              className="social-link"
               href="https://twitter.com/luisfmsouz"
               target="_blank"
             >
@@ -36,7 +36,7 @@ function App() {
           </li>
           <li>
             <a
-              class="social-link"
+              className="social-link"
               href="https://medium.com/@luisfmsouza"
               target="_blank"
             >
@@ -45,7 +45,7 @@ function App() {
           </li>
           <li>
             <a
-              class="social-link"
+              className="social-link"
               href="https://br.linkedin.com/in/luisfmsouza"
               target="_blank"
             >
@@ -54,7 +54,7 @@ function App() {
           </li>
           <li>
             <a
-              class="social-link"
+              className="social-link"
               href="https://github.com/luisfmsouza"
               target="_blank"
             >
