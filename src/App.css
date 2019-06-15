@@ -1,17 +1,17 @@
 /* Settings */
 :root {
-  --gradientFirst: #e7e7e7;
-  --gradientSecond: #e7e7e7;
-  --linkPrimary: #0287D0;
-  --linkPrimary__hover: #004790;
-  --textColor: #aaa;
-  --titleColor: #303030;
+  --gradientFirst: #f6f7f8;
+  --gradientSecond: #e9eef2;
+  --linkPrimary: #159ce4;
+  --linkPrimary--hover: #147ec1;
+  --textColor: #597183;
+  --titleColor: #32383c;
 }
 
 
 /* Base */
 body {
-  background: radial-gradient(var(--gradientFirst), var(--gradientSecond));
+  background-image: radial-gradient(var(--gradientFirst), var(--gradientSecond));
   color: var(--textColor);
   font-family: "Alice";
   font-size: 1em;
@@ -25,10 +25,11 @@ a {
   color: var(--linkPrimary);
   font-weight: bold;
   text-decoration: none;
+  transition: color .3s ease;
 }
 
 a:hover {
-  color: var(--linkPrimary__hover);
+  color: var(--linkPrimary--hover);
 }
 
 p {
