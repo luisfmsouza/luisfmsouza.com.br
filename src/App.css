@@ -55,7 +55,7 @@ ul li {
 
 .title {
   color: var(--titleColor);
-  font-size: 48px; 
+  font-size: 48px;
   font-weight: 900;
   line-height: 1.2;
   letter-spacing: -1px;
@@ -75,25 +75,23 @@ ul li {
   margin: 0 auto;
   padding: 0;
   text-align: center;
-
-  & li {
-    display: inline-block;
-    list-style: none;
-    margin: 25px;
-    padding: 0;
-  }
 }
 
-.social-link {
-  & .icon {
-    opacity: 0.75;
-    transition: all .2s ease-in-out;
-  }
+.social-list li {
+  display: inline-block;
+  list-style: none;
+  margin: 25px;
+  padding: 0;
+}
 
-  &:hover .icon {
-    opacity: 1;
-    transform: scale(1.1); 
-  }
+.social-link .icon {
+  opacity: 0.75;
+  transition: all .2s ease-in-out;
+}
+
+.social-link:hover .icon {
+  opacity: 1;
+  transform: scale(1.1);
 }
 
 
@@ -105,4 +103,3 @@ ul li {
 .social-link .linkedin {
   fill: #0077b5;
 }
-

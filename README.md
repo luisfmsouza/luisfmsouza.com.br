@@ -2,24 +2,36 @@
 
 ## Access :zap:
 
-Link: http://www.luisfmsouza.com.br
+[luisfmsouza.com.br](http://www.luisfmsouza.com.br)
 
-# Plans :thought_balloon:
-- Use [RSCSS](http://willianjusten.com.br/falando-sobre-rscss/) methodology
-- Use PostCSS (also as a preprocessor) :ballot_box_with_check:
-- NPM scripts (maybe!) :ballot_box_with_check:
+## Available Scripts
 
-# Using
-- [PostCSS](https://github.com/postcss/postcss)
-  - [PostCSS-CLI](https://github.com/postcss/postcss-cli): to make NPM scripts easyer
-  - [Autoprefixer](https://github.com/postcss/autoprefixer)
-  - [CSS Nano](https://github.com/ben-eb/cssnano)
-  - [Font Magician](https://github.com/jonathantneal/postcss-font-magician)
-  - [LostGrid](https://github.com/peterramsing/lost)
-  - [cssnext](https://github.com/MoOx/postcss-cssnext)
+In the project directory, you can run:
 
+### `npm start`
 
-# Deploy :rocket:
+Runs the app in the development mode.<br>
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+The page will reload if you make edits.<br>
+You will also see any lint errors in the console.
+
+### `npm test`
+
+Launches the test runner in the interactive watch mode.<br>
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.<br>
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.<br>
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+## Deploy :rocket:
 
 Heroku Pipeline is taking care of every deploy step.
 
