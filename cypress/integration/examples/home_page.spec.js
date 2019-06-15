@@ -6,5 +6,7 @@ describe("Visit my personal homepage", function() {
     cy.contains(
       "Front-end Developer, traveler, beer lover and entrepreneur in my free time."
     );
+
+    cy.percySnapshot();
   });
 });
