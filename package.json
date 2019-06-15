@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/luisfmsouza/luisfmsouza.com.br#readme",
   "dependencies": {
-    "mime": "~1.3.4"
+    "mime": "~2.4.4"
   },
   "devDependencies": {
     "autoprefixer": "^6.3.2",
