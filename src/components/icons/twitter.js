@@ -2,7 +2,7 @@ import React from "react";
 
 export default () => (
   <svg
-    class="icon twitter"
+    className="icon twitter"
     height="100"
     width="100"
     viewBox="0, 0, 1000, 1000"
