@@ -14,7 +14,7 @@
   "bugs": {
     "url": "https://github.com/luisfmsouza/luisfmsouza.com.br/issues"
   },
-  "homepage": "https://github.com/luisfmsouza/luisfmsouza.com.br#readme",
+  "homepage": "https://luisfmsouza.herokuapp.com/",
   "dependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
@@ -31,7 +31,7 @@
   },
   "browserslist": {
     "production": [
-      ">0.2%",
+      ">0.4%",
       "not dead",
       "not op_mini all"
     ],
