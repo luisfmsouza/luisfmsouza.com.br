@@ -16,7 +16,7 @@
   },
   "homepage": "https://luisfmsouza.herokuapp.com/",
   "dependencies": {
-    "react": "^16.10.1",
+    "react": "^16.10.2",
     "react-dom": "^16.10.1",
     "react-scripts": "3.2.0",
     "wait-on": "^3.3.0"
