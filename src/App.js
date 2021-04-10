@@ -11,23 +11,15 @@ function App() {
       <header>
         <h1 className="title">Luís Felipe Souza</h1>
         <h2 className="headline">
-          Front-end Developer,{' '}
+          Front-end Engineer @ {' '}
           <a
-            href="https://travel2beer.com/"
+            href="https://findhotel.net/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            traveler
-          </a>
-          ,{' '}
-          <a
-            href="https://www.instagram.com/travel2beer/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            beer lover
-          </a>{' '}
-          and entrepreneur in my free time.
+            FindHotel
+          </a>.{' '}
+          Based in Amsterdam 🇳🇱
         </h2>
       </header>
 
