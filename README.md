@@ -2,7 +2,7 @@
 
 ## Access :zap:
 
-[luisfmsouza.com.br](http://www.luisfmsouza.com.br)
+[luisfmsouza.com.br](http://www.luisfmsouza.com.br) or luisfmsouza.herokuapp.com
 
 ## Available Scripts
 
