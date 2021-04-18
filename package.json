@@ -27,7 +27,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lint": "eslint ./src",
-    "test:e2e:local": "PERCY_TOKEN=156ab50cfad09b7483f24f65f03fa2edc1a09d3b7d8331d8e3c093616475bc2d PERCY_BRANCH=local yarn test:e2e"
+    "cypress:run": "cypress run",
+    "percy:cypress": "percy exec -- cypress run"
   },
   "browserslist": {
     "production": [
@@ -42,8 +43,9 @@
     ]
   },
   "devDependencies": {
+    "@percy/cli": "^1.0.0-beta.48",
     "@percy/cypress": "^3.1.0",
-    "cypress": "^4.12.1",
+    "cypress": "^7.1.0",
     "eslint-config-prettier": "^6.11.0",
     "eslint-config-xo": "^0.35.0",
     "eslint-config-xo-react": "^0.25.0",
