@@ -2,7 +2,7 @@
 
 ## Access :zap:
 
-[luisfmsouza.com.br](https://www.luisfmsouza.com.br) or [luisfmsouza.herokuapp.com](https://luisfmsouza.herokuapp.com/)
+[luisfmsouza.com.br](https://www.luisfmsouza.com.br) (or [temporary deploy](https://luisfmsouza-com-br.vercel.app/))
 
 ## Available Scripts
 
