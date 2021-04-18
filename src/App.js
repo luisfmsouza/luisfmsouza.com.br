@@ -5,21 +5,21 @@ import MediumIcon from './components/icons/medium';
 import LinkedinIcon from './components/icons/linkedin';
 import GithubIcon from './components/icons/github';
 
-function App() {
+const App = () => {
   return (
     <div className="container">
       <header>
         <h1 className="title">Luís Felipe Souza</h1>
         <h2 className="headline">
-          Front-end Engineer @ {' '}
+          Front-end Engineer @{' '}
           <a
             href="https://findhotel.net/"
             target="_blank"
             rel="noopener noreferrer"
           >
             FindHotel
-          </a>.{' '}
-          Based in Amsterdam 🇳🇱
+          </a>
+          . Based in Amsterdam 🇳🇱
         </h2>
       </header>
 
@@ -69,6 +69,6 @@ function App() {
       </section>
     </div>
   );
-}
+};
 
 export default App;
