@@ -1,9 +1,6 @@
 import React from 'react';
 import './App.css';
-import TwitterIcon from './components/icons/twitter';
-import MediumIcon from './components/icons/medium';
-import LinkedinIcon from './components/icons/linkedin';
-import GithubIcon from './components/icons/github';
+import { SocialIcon } from 'react-social-icons';
 
 const App = () => {
   return (
@@ -19,51 +16,33 @@ const App = () => {
           >
             FindHotel
           </a>
-          . Based in Amsterdam 🇳🇱
+          . <br />
+          Based in Amsterdam 🇳🇱
         </h2>
       </header>
 
       <section className="content">
         <ul className="social-list">
           <li>
-            <a
-              className="social-link"
-              href="https://twitter.com/luisfmsouz"
+            <SocialIcon
+              url="https://instagram.com/luisfmsouza"
               target="_blank"
-              rel="noopener noreferrer"
-            >
-              <TwitterIcon />
-            </a>
+            />
           </li>
           <li>
-            <a
-              className="social-link"
-              href="https://medium.com/@luisfmsouza"
+            <SocialIcon
+              url="https://linkedin.com/in/luisfmsouza"
               target="_blank"
-              rel="noopener noreferrer"
-            >
-              <MediumIcon />
-            </a>
+            />
           </li>
           <li>
-            <a
-              className="social-link"
-              href="https://br.linkedin.com/in/luisfmsouza"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <LinkedinIcon />
-            </a>
+            <SocialIcon url="https://github.com/luisfmsouza" target="_blank" />
           </li>
           <li>
-            <a
-              className="social-link"
-              href="https://github.com/luisfmsouza"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <GithubIcon />
-            </a>
+            <SocialIcon url="https://twitter.com/luisfmsouz" target="_blank" />
+          </li>
+          <li>
+            <SocialIcon url="https://medium.com/@luisfmsouza" target="_blank" />
           </li>
         </ul>
       </section>
