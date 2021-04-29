@@ -1,0 +1,46 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "08:00"
+  open-pull-requests-limit: 10
+  assignees:
+  - luisfmsouza
+  ignore:
+  - dependency-name: eslint-config-prettier
+    versions:
+    - 8.1.0
+    - 8.2.0
+  - dependency-name: "@percy/cypress"
+    versions:
+    - 3.0.0
+  - dependency-name: eslint-plugin-react
+    versions:
+    - 7.22.0
+    - 7.23.0
+    - 7.23.1
+    - 7.23.2
+  - dependency-name: y18n
+    versions:
+    - 4.0.1
+  - dependency-name: wait-on
+    versions:
+    - 5.2.1
+    - 5.2.2
+  - dependency-name: eslint-plugin-prettier
+    versions:
+    - 3.3.1
+  - dependency-name: eslint-config-xo
+    versions:
+    - 0.34.0
+  - dependency-name: cypress
+    versions:
+    - 4.12.1
+  - dependency-name: elliptic
+    versions:
+    - 6.5.3
+  - dependency-name: handlebars
+    versions:
+    - 4.7.6
