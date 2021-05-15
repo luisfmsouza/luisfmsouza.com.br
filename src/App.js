@@ -49,12 +49,12 @@ const App = () => {
       <section className="content">
         <h2 className="headline">
           <a
-            href="https://mentora.webflow.io/mentor/luis-souza#divulgue"
+            href="https://mentora.webflow.io/mentor/luis-souza"
             target="_blank"
             rel="noopener noreferrer"
           >
             Book
-          </a>
+          </a>{' '}
           30 minutes of mentoring (for free 🤑).
         </h2>
       </section>
