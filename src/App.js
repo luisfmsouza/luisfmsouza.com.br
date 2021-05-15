@@ -47,7 +47,7 @@ const App = () => {
         </ul>
       </section>
       <section className="content">
-         <h2 className="headline">
+        <h2 className="headline">
           <a
             href="https://mentora.webflow.io/mentor/luis-souza#divulgue"
             target="_blank"
@@ -55,7 +55,7 @@ const App = () => {
           >
             Book
           </a>
-          30 minutes of mentoring (for free 🤑)!
+          30 minutes of mentoring (for free 🤑).
         </h2>
       </section>
     </div>
