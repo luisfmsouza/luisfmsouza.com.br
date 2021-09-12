@@ -8,7 +8,7 @@ const App = () => {
       <header>
         <h1 className="title">Luís Felipe Souza</h1>
         <h2 className="headline">
-          Front-end Engineer @{' '}
+          Engineering Manager @{' '}
           <a
             href="https://careers.findhotel.net/?utm_source=luisfmsouza.com.br"
             target="_blank"
