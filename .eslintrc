@@ -3,10 +3,5 @@
     "browser": true,
     "jest": true
   },
-  "extends": [
-    "xo/esnext",
-    "xo-react/space",
-    "prettier/react",
-    "plugin:prettier/recommended"
-  ]
+  "extends": ["xo", "xo-react/space", "prettier"]
 }
