@@ -22,7 +22,7 @@
     "eject": "react-scripts eject",
     "lint": "eslint ./src",
     "cypress:run": "cypress run",
-    "percy:cypress": "percy exec -- cypress run"
+    "test:e2e": "percy exec -- cypress run"
   },
   "browserslist": {
     "production": [
