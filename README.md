@@ -33,12 +33,7 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ## Deploy :rocket:
 
-Heroku Pipeline is taking care of every deploy step.
+[Vercel](https://vercel.com) takes care of the preview and production environment. Easy to ship and go online!
 
-First, every Pull Request should pass by an review. If everything is ok, deploy to staging is executed and the changes must be merged to `master`.
-
-After the merge, a deploy to staging is automatically started.
-
-If the staging review is ok, Heroku Pipeline also take care of a deploy to production.
-
-Easy to ship and go online!
+Every Pull Request will have a review environment.<br>
+If everything is ok, after the changes are merged to `master` a deploy to production will happen automatically.
