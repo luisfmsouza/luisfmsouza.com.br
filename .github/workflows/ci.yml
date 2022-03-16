@@ -16,6 +16,8 @@ jobs:
         uses: actions/checkout@v1
       - name: Run Cypress 🌲
         uses: cypress-io/github-action@v2
+        with:
+          command-prefix: "percy exec -- npx"
         env:
           CYPRESS_BASE_URL: ${{ github.event.deployment_status.target_url }}
           PERCY_TOKEN: ${{ secrets.PERCY_TOKEN }}
