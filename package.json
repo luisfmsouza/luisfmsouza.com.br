@@ -45,7 +45,7 @@
   "devDependencies": {
     "@percy/cli": "^1.11.0",
     "@percy/cypress": "^3.1.2",
-    "cypress": "^9.5.2",
+    "cypress": "^10.10.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-config-xo": "^0.42.0",
     "eslint-config-xo-react": "^0.26.0",
