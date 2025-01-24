@@ -7,16 +7,16 @@ const App = () => (
     <header>
       <h1 className="title">Luís Felipe Souza</h1>
       <h2 className="headline">
-        Engineering Manager @{' '}
+        Staff Engineer @{' '}
         <a
-          href="https://careers.findhotel.net/?utm_source=luisfmsouza.com.br"
+          href="https://www.vio.com/careers?utm_source=luisfmsouza.com.br"
           target="_blank"
           rel="noopener noreferrer"
         >
-          FindHotel
+          Vio.com
         </a>
         . <br />
-        Based in Amsterdam 🇳🇱
+        Based in Sunny Valencia, Spain 🇪🇸
       </h2>
     </header>
 
@@ -24,9 +24,6 @@ const App = () => (
       <ul className="social-list">
         <li>
           <SocialIcon url="https://instagram.com/luisfmsouza" target="_blank" />
-        </li>
-        <li>
-          <SocialIcon url="https://twitter.com/luisfmsouz" target="_blank" />
         </li>
         <li>
           <SocialIcon
