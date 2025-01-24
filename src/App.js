@@ -16,7 +16,7 @@ const App = () => (
           Vio.com
         </a>
         . <br />
-        Based in Sunny Valencia, Spain 🇪🇸
+        Based in the sunny Valencia, Spain 🇪🇸
       </h2>
     </header>
 

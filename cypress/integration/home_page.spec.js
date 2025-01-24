@@ -3,7 +3,7 @@ describe("Visit my personal homepage", () => {
     cy.visit("/");
 
     cy.contains("Luís Felipe Souza");
-    cy.contains("Engineering Manager @ FindHotel. Based in Amsterdam 🇳🇱");
+    cy.contains("Based in the sunny Valencia, Spain 🇪🇸");
 
     cy.percySnapshot();
   });
